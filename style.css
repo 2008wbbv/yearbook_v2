@@ -50,3 +50,14 @@ footer {
   height: 100%;
   width: 100%;
 }
+/* style.css */
+/* ... other styles ... */
+
+.credits {
+  text-align: center;
+  padding: 20px;
+}
+
+.credits h2 {
+  margin-bottom: 10px;
+}
