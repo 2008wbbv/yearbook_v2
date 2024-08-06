@@ -1,4 +1,4 @@
-/* style.css */
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -17,13 +17,13 @@ main {
 
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
   gap: 20px;
 }
 
 .photo {
   position: relative;
-  overflow: hidden; /* Hide image overflow for hover effect */
+  overflow: hidden; 
 }
 
 .photo img {
@@ -36,22 +36,21 @@ main {
 }
 
 .photo:hover img {
-  transform: scale(1.1); /* Zoom on hover */
+  transform: scale(1.1); 
 }
 
 footer {
   background-color: #f0f0f0;
   padding: 10px;
   text-align: center;
-  position: fixed; /* Make footer stick to the bottom */
+  position: fixed; 
   bottom: 0;
   width: 100%;
 }html {
   height: 100%;
   width: 100%;
 }
-/* style.css */
-/* ... other styles ... */
+
 
 .credits {
   text-align: center;
@@ -60,8 +59,7 @@ footer {
 
 .credits h2 {
   margin-bottom: 10px;
-}/* style.css */
-/* ... other styles ... */
+}
 
 .candid-photos {
   text-align: center;
@@ -77,8 +75,7 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust as needed */
   gap: 10px;
 }
-/* style.css */
-/* ... other styles ... */
+
 
 .class-photos {
   text-align: center;
@@ -92,5 +89,21 @@ footer {
 .class-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust as needed */
+  gap: 10px;
+}
+
+
+.teacher-photos {
+  text-align: center;
+  padding: 20px;
+}
+
+.teacher-photos h2 {
+  margin-bottom: 10px;
+}
+
+.teacher-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust as needed */
   gap: 10px;
 }
