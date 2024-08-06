@@ -60,4 +60,20 @@ footer {
 
 .credits h2 {
   margin-bottom: 10px;
+}/* style.css */
+/* ... other styles ... */
+
+.candid-photos {
+  text-align: center;
+  padding: 20px;
+}
+
+.candid-photos h2 {
+  margin-bottom: 10px;
+}
+
+.candid-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust as needed */
+  gap: 10px;
 }
