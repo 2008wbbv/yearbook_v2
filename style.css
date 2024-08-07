@@ -122,3 +122,20 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust as needed */
   gap: 10px;
 }
+
+
+
+.pet-photos {
+  text-align: center;
+  padding: 20px;
+}
+
+.pet-photos h2 {
+  margin-bottom: 10px;
+}
+
+.pet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust as needed */
+  gap: 10px;
+}
