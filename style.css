@@ -139,3 +139,32 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust as needed */
   gap: 10px;
 }
+
+/* style.css */
+/* ... other styles ... */
+
+.class-offices {
+  text-align: center;
+  padding: 20px;
+}
+
+.class-offices h2 {
+  margin-bottom: 10px;
+}
+
+.class-offices table {
+  width: 80%; /* Adjust table width as needed */
+  margin: 0 auto; /* Center the table */
+  border-collapse: collapse;
+}
+
+.class-offices th,
+.class-offices td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.class-offices th {
+  background-color: #f0f0f0;
+}
