@@ -168,3 +168,39 @@ footer {
 .class-offices th {
   background-color: #f0f0f0;
 }
+
+/* style.css */
+/* ... other styles ... */
+
+.clubs-teams {
+  text-align: center;
+  padding: 20px;
+}
+
+.clubs-teams h2 {
+  margin-bottom: 10px;
+}
+
+.club-team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.club-team-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.club-team-list li {
+  width: 250px; /* Adjust width as needed */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.club-team-list li h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
