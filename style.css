@@ -72,7 +72,7 @@ footer {
 
 .candid-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust as needed */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
   gap: 10px;
 }
 
@@ -88,8 +88,7 @@ footer {
 
 .class-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust as needed */
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
 }
 
 
@@ -104,7 +103,7 @@ footer {
 
 .teacher-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust as needed */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
   gap: 10px;
 }
 
@@ -119,7 +118,7 @@ footer {
 
 .silly-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust as needed */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
   gap: 10px;
 }
 
@@ -136,12 +135,10 @@ footer {
 
 .pet-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust as needed */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
 }
 
-/* style.css */
-/* ... other styles ... */
 
 .class-offices {
   text-align: center;
@@ -153,8 +150,8 @@ footer {
 }
 
 .class-offices table {
-  width: 80%; /* Adjust table width as needed */
-  margin: 0 auto; /* Center the table */
+  width: 80%; 
+  margin: 0 auto; 
   border-collapse: collapse;
 }
 
@@ -169,8 +166,6 @@ footer {
   background-color: #f0f0f0;
 }
 
-/* style.css */
-/* ... other styles ... */
 
 .clubs-teams {
   text-align: center;
@@ -194,13 +189,46 @@ footer {
 }
 
 .club-team-list li {
-  width: 250px; /* Adjust width as needed */
+  width: 250px; 
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
 }
 
 .club-team-list li h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.awards-projects {
+  text-align: center;
+  padding: 20px;
+}
+
+.awards-projects h2 {
+  margin-bottom: 10px;
+}
+
+.award-project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.award-project-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.award-project-list li {
+  width: 250px; 
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.award-project-list li h3 {
   margin-top: 0;
   margin-bottom: 5px;
 }
